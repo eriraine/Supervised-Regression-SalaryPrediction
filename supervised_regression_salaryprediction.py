@@ -257,5 +257,3 @@ R^2 Score:
   Train: {r2_train:.2f}
   Test : {r2_test:.2f}
       """)
-
-"""you can doing modelling using RandomForest Regressor with the same flow like Decision Tree or LinearRegression above :)"""
