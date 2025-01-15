@@ -7,40 +7,23 @@ This project aims to predict employee salaries based on their years of experienc
 3. Creating a practical tool for salary estimation based on work experience.
    
 ## Project Structure
-###1. Data Ingestion
-   Loading data using pandas
-   Exploratory Data Analysis
-
-Statistical description of the data
-Visualization of relationship between experience and salary
-Scatter plot implementation using seaborn
-
-
-Data Preprocessing
-
-Duplicate data check and removal
-Missing value identification
-Data preparation for modeling
-
-
-Model Implementation
-
-Data splitting (75% training, 25% testing)
-Three different models:
-
-Linear Regression
-Decision Tree
-Random Forest
-
-
-
-
-Model Evaluation
-
-Mean Squared Error (MSE) calculation
-R² Score evaluation
-Visual comparison of actual vs predicted values
-Performance comparison between training and test sets
+### 1. Data Ingestion
+      -Loading data from 'salary data.csv' using pandas
+### 2. Exploratory Data Analysis (EDA)
+      -Visualization of relationship between experience and salary
+      -Scatter plot implementation using seaborn
+### 3. Data Preprocessing
+      -Duplicate data check and removal
+      -Missing value identification
+      -Data preparation for modeling
+### 4. Model Implementation
+      -Data splitting (75% training, 25% testing)
+      -Three different models regression (Linear Regression, Decision Tree, Random Forest)
+### 5. Model Evaluation
+      -Mean Squared Error (MSE) calculation
+      -R² Score evaluation
+      -Visual comparison of actual vs predicted values
+      -Performance comparison between training and test sets
 
 ## Insight and Result
 The analysis revealed a strong positive correlation between years of experience and salary, with no missing values or duplicates in the dataset. Among the three models tested, Random Forest demonstrated the best performance with high R-squared values and low RMSE.
